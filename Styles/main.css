@@ -36,7 +36,9 @@ body{
     color: #ffffff !important;
 }
 
-
+.button__transparent{
+    background-color: transparent;
+}
 
 
 
@@ -96,7 +98,7 @@ body{
 /*--------------------------------
       FOR DEBUGGING PURPOSES
  -------------------------------*/
- 
+
 .debug__border{
     border:1px red solid;
 }
@@ -104,7 +106,7 @@ body{
     background-color: red;
 }
 .debug__background:hover{
-	background-color: white;
+    background-color: white;
 }
 
 
@@ -224,4 +226,61 @@ header{
 
 .feature__text-margin-top{
     margin-top: 45px;
+}
+
+
+
+
+
+
+/*------------------------
+      Iphone Features
+------------------------ */
+
+.iphone-features{
+    background-color: #ffffff;
+    height: 900px;
+
+}
+
+.iphone-features__image{
+    position: absolute;
+    background-image: url(../images/iphone-feature.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 945px;
+    height: 810px;
+    top: 9%;
+    left: -50%;
+}
+
+.iphone-features__text--margin-vertical{
+    margin-top: 225px;
+}
+
+.iphone-features__text--heading-spacing{
+    line-height: 1.125rem;
+}
+
+.iphone-features__text--article-spacing{
+    margin-top:70px;
+    margin-bottom: 35px;
+}
+
+.iphone-features__button{
+    margin-top: 5rem;
+}
+
+.iphone-features__button-hack-me{
+    width: 202px;
+}
+
+.iphone-features__button-hack-me--text{
+    margin-right: 45px;
+}
+
+.iphone-features__button-learn-more{
+    width: 142px;
+    font-weight: 600;
+    margin-left: 1.25rem;
 }
