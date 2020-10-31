@@ -84,6 +84,10 @@ body{
     font-size: 3.875rem;
 }
 
+.text__heading--spacing{
+    margin-bottom: 0;
+}
+
 .color__grey{
     color: #8c8f94 !important;
 }
@@ -283,4 +287,50 @@ header{
     width: 142px;
     font-weight: 600;
     margin-left: 1.25rem;
+}
+
+
+
+
+
+
+/*------------------------
+      Worldwide
+------------------------ */
+
+.worldwide{
+    position: relative;
+    background-color: #ffffff;
+    height: 900px;
+
+}
+
+.worldwide__text--margin-vertical{
+    margin-top: 200px;
+}
+
+.worldwide__text--article-spacing{
+    margin-top: 3.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.worldwide__partners{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.worldwide__map {
+    margin: 200px 0;
+    width: 57%;
+    max-width: 900px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+.worldwide__map--img{
+    width: 119%;
 }
