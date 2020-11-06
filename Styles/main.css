@@ -726,3 +726,9 @@ header{
 .footer__signature--logo{
     font-size: 0.5625rem;
 }
+
+.footer__signature--logo > span {
+    background-image: url("../images/craftwork-icon.svg");
+    width: 108px;
+    height: 36px;
+}
