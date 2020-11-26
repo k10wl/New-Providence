@@ -9,6 +9,11 @@ body{
     color: #2a2b31;
 }
 
+.break-out{
+    width: 100vw;
+    position: relative;
+    left: calc(-1 * (100vw - 100%) / 2);
+}
 
 
 
@@ -307,8 +312,25 @@ header{
     margin-left: 1.25rem;
 }
 
+@media (max-width:992px)  {
+    .iphone-features__button-hack-me{
+        width: 202px;
+    }
+    .iphone-features__button-learn-more{
+        width: 202px;
+    }
+}
 
-
+@media (max-width:576px)  {
+    .iphone-features__button-hack-me{
+        width: 50%;
+    }
+    .iphone-features__button-learn-more{
+        width: 50%;
+        margin-top: 3%;
+        margin-left: 0;
+    }
+}
 
 
 
