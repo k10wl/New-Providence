@@ -9,7 +9,39 @@ body{
     color: #2a2b31;
 }
 
+.break-out{
+    width: 100vw;
+    position: relative;
+    left: calc(-1 * (100vw - 100%) / 2);
+}
 
+.container-alternative{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+@media (min-width: 576px) {
+    .container-alternative{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-alternative{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-alternative{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-alternative{
+        max-width: 1140px;
+    }
+}
 
 
 
@@ -307,8 +339,25 @@ header{
     margin-left: 1.25rem;
 }
 
+@media (max-width:992px)  {
+    .iphone-features__button-hack-me{
+        width: 202px;
+    }
+    .iphone-features__button-learn-more{
+        width: 202px;
+    }
+}
 
-
+@media (max-width:576px)  {
+    .iphone-features__button-hack-me{
+        width: 50%;
+    }
+    .iphone-features__button-learn-more{
+        width: 50%;
+        margin-top: 3%;
+        margin-left: 0;
+    }
+}
 
 
 
@@ -426,6 +475,14 @@ header{
     width: 500px;
 }
 
+@media (max-width: 576px) {
+    .get-app__button{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .get-app__small-button{
     width: 164px;
 }
@@ -516,6 +573,8 @@ header{
     height: 900px;
     background-color: #f4f4f5;
     padding-top: 160px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .plan__container{
@@ -540,6 +599,15 @@ header{
     color: #8c8f94;
 }
 
+.plan__type--custom-width{
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .plan__type--custom-width{
+        width: 75%;
+    }
+}
 
 .plan__type--upper-spacing{
     margin-top: 70px;
@@ -629,6 +697,12 @@ header{
 .subscribe__button{
     width: 560px;
     margin: 28px 0;
+}
+
+@media (max-width: 768px) {
+    .subscribe__button{
+        width: 100%;
+    }
 }
 
 .subscribe__small-button{

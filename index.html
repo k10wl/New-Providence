@@ -12,7 +12,10 @@
 <!--Header-->
 
 <header class="container-fluid text__small pt-44px">
-    <nav class="container-xl p-0 navbar navbar-expand-sm navbar-light d-flex justify-content-between">
+    <nav class="container-xl p-0 navbar navbar-expand-sm navbar-light d-flex justify-content-between navbar-expand-md">
+
+    <!--Normal container-->
+
         <span class="d-inline-flex">
             <a class="align-self-center color__black pr-3" href="#">
                 <i class="fas fa-bars"></i>
@@ -126,72 +129,88 @@
 <!--iphone feature-->
 
 <div class="container-fluid iphone-features">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 ">
-                <div>
-                    <span class="iphone-features__image"></span>
-                </div>
-            </div>
+    <div class="container-alternative">
 
-            <div class="col-sm-5 pr-0">
-                <div class="iphone-features__text--margin-vertical">
-                    <p class="text__varela text__heading color__black text__heading--spacing">
-                        Your day
-                    </p>
-                    <p class="text__varela text__heading color__black">
-                        is protected
-                    </p>
-                    <p class="text__lato text__article color__grey iphone-features__text--article-spacing">
-                        There have not been any since we have lived here, said my mother.
-                    </p>
-                    <p class="text__lato text__article color__grey">
-                        We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests were very old ones, and the birds have deserted them a long while
-                    </p>
+
+            <div class="row">
+
+                <div class="col-7 d-none d-lg-block">
+                    <div>
+                        <span class="iphone-features__image"></span>
+                    </div>
                 </div>
-                <div class="iphone-features__button">
-                    <button class="btn button button__medium button__medium--blue iphone-features__button-hack-me">
-                            <span class="iphone-features__button-hack-me--text">Try to hack us</span><i class="fas fa-long-arrow-alt-right"></i>
-                    </button>
-                    <button class="btn button button__medium button__transparent border iphone-features__button-learn-more">
-                            <span class="">Learn more</span>
-                    </button>
+
+                <div class="col pr-0 text-center text-lg-left">
+                    <div class="iphone-features__text--margin-vertical">
+                        <p class="text__varela text__heading color__black text__heading--spacing">
+                            Your day
+                        </p>
+                        <p class="text__varela text__heading color__black">
+                            is protected
+                        </p>
+                        <p class="text__lato text__article color__grey iphone-features__text--article-spacing">
+                            There have not been any since we have lived here, said my mother.
+                        </p>
+                        <p class="text__lato text__article color__grey">
+                            We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests were very old ones, and the birds have deserted them a long while
+                        </p>
+                    </div>
+
+
+                    <div class="iphone-features__button">
+                        <button class="btn button button__medium button__medium--blue iphone-features__button-hack-me">
+                                <span class="iphone-features__button-hack-me--text">Try to hack us</span><i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+
+                        <br class="d-block d-sm-none">
+
+                        <button class="btn button button__medium button__transparent border iphone-features__button-learn-more">
+                                <span class="">Learn more</span>
+                        </button>
+                    </div>
+
                 </div>
+
             </div>
-        </div>
     </div>
+
 </div>
 
 <!--worldwide-->
 
 <div class="worldwide container-fluid">
-    <div class="worldwide__map d-float float-right">
-        <img src="images/map.png" class="worldwide__map--img d-flex float-left" height="auto">
-    </div>
-
     <div class="container">
-        <div class="row">
-            <div class="col-5">
-                <div class="worldwide__text--margin-vertical">
-                    <div class="">
-                        <p class="text__heading text__varela color__black text__heading--spacing">We are almost</p>
-                        <p class="text__varela text__heading color__black">everywhere</p>
-                    </div>
-                    <div class="text__article text__lato color__grey">
-                        <p class="worldwide__text--article-spacing">Now the races of these two have been for some ages utterly extinct, and besides to discourse any further of them would not be at all to my purpose.</p>
-                        <p>Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you.</p>
-                    </div>
-                    <div>
-                        <p class="worldwide__partners">PARTNERS</p>
-                        <img class="mr-4" src="images/dropbox.png" alt="dropbox">
-                        <img src="images/evernote.png" alt="evernote">
+        <div class="worldwide__map d-float float-right">
+            <img src="images/map.png" class="worldwide__map--imgfloat-left d-none d-lg-flex" height="auto">
+        </div>
+
+        <div class="container text-center text-lg-left">
+            <div class="row">
+                <div class="col col-lg-5">
+                    <div class="worldwide__text--margin-vertical">
+                        <div>
+                            <p class="text__heading text__varela color__black text__heading--spacing">We are almost</p>
+                            <p class="text__varela text__heading color__black">everywhere</p>
+                        </div>
+                        <div class="text__article text__lato color__grey">
+                            <p class="worldwide__text--article-spacing">Now the races of these two have been for some ages utterly extinct, and besides to discourse any further of them would not be at all to my purpose.</p>
+                            <p>Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you.</p>
+                        </div>
+                        <div>
+                            <p class="worldwide__partners">PARTNERS</p>
+                                <a href="">
+                                    <img class="mr-4" src="images/dropbox.png" alt="dropbox">
+                                </a>
+                                <a href="">
+                                    <img src="images/evernote.png" alt="evernote">
+                                </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <!--interface-->
 
@@ -232,7 +251,7 @@
                 </p>
             </div>
 
-            <form class="get-app__button button button__large button__transparent border d-flex justify-content-between">
+            <form method="post" action="" class="get-app__button button button__large button__transparent border d-flex justify-content-between">
                 <input type="email" class="my-auto button__large get-app__button--email border-0 bg-transparent ml-4" required>
                 <input id="test" type="submit" class="d-none">
                 <label for="test" class="button button__medium button__medium--green get-app__small-button d-flex justify-content-around my-auto mr-1">
@@ -317,7 +336,7 @@
 <!--plan-->
 
 <div class="container-fluid plan">
-    <div class="container">
+    <div class="container-alternative">
         <div class="row no-gutters plan__container">
 
             <!--plan personal/corporative-->
@@ -325,7 +344,7 @@
             <div class="col-5">
                 <div class="h-100 d-flex align-items-center">
                     <div>
-                        <p class="text__varela text__heading w-75">
+                        <p class="text__varela text__heading plan__type--custom-width">
                             Choose your perfect plan
                         </p>
                         <div class="plan__type--upper-spacing">
@@ -347,7 +366,7 @@
                         </div>
 
                         <div class="color__grey plan__type--bottom-spacing">
-                            <p class="text__article w-75">
+                            <p class="text__article plan__type--custom-width">
                                 Thus much I thought proper to tell you in relation to yourself,
                                 and to the trust I reposed in you.
                             </p>
@@ -436,7 +455,7 @@
 <div class="container-fluid subscribe d-flex align-items-center justify-content-center">
     <div class="text-center">
         <p class="text__heading color__black">Subscribe our newsletters</p>
-        <form class="subscribe__button button button__large button__transparent border d-flex justify-content-between">
+        <form method="post" action="" class="subscribe__button button button__large button__transparent border d-flex justify-content-between">
             <input type="email" class="my-auto button__large border-0 bg-transparent w-100 ml-4" placeholder="Your e-mail" required>
             <input id="subscribe-form" type="submit" class="d-none">
             <label for="subscribe-form" class="button button__medium button__medium--green subscribe__small-button d-flex justify-content-around my-auto mr-1">
@@ -493,7 +512,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-2 footer__text-socials">
                 <div class="d-block">
                     <p class="text-uppercase text__lato--heavy text__extra-small color__black">Learn more</p>
 
@@ -507,7 +526,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-2 footer__text-socials">
                 <div class="d-block">
                     <p class="text-uppercase text__lato--heavy text__extra-small color__black">About us</p>
 
@@ -521,7 +540,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-2 footer__text-socials">
                 <div class="d-block">
                     <p class="text-uppercase text__lato--heavy text__extra-small color__black">Support</p>
 
@@ -556,6 +575,10 @@
 
     </div>
 </footer>
+
+<!--My script-->
+
+<script src="Scripts/myScript.js"></script>
 
 <!--Bootstrap scrips-->
 
