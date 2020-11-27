@@ -206,7 +206,13 @@ header{
     font-size: 1.5rem;
 }
 
-
+.toggle{
+    display: block !important;
+    position: absolute;
+    transform: translate(30%, 15%);
+    background-color: #ffffff;
+    border: #6b6b6b 1px solid;
+}
 
 
 
